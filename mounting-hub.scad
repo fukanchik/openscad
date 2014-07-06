@@ -1,3 +1,9 @@
+/**
+ * Universal Mounting Hub - 5mm Printable
+ * 
+ * Original aluminum is here: https://www.sparkfun.com/products/10006
+ * GPL v3 or later
+ */
 $fn=50;
 
 function inch(i) = i * 25.4;
@@ -84,3 +90,4 @@ module hub()
 }
 
 hub();
+
