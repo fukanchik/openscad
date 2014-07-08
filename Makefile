@@ -1,8 +1,6 @@
 #
 #
 #
-OPENSCAD=~/src/openscad/openscad
-
 STLS=brush-holder.stl mounting-hub.stl
 
 all: $(patsubst %,stl/%, $(STLS))
