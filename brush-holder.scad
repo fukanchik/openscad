@@ -1,5 +1,5 @@
 /**
- * Hand Saw Brush Holder
+ * Hand Saw Brush Holder replacement part.
  */
 xlength=16;
 
