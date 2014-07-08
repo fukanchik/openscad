@@ -4,7 +4,7 @@
  * Original aluminum is here: https://www.sparkfun.com/products/10006
  * GPL v3 or later
  */
-$fn=50;
+$fn=30;
 
 function inch(i) = i * 25.4;
 function mm(m) = m;
