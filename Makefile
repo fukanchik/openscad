@@ -1,5 +1,6 @@
 #
-#
+# Builds STL files.
+# Requires environment variable OPENSCAD pointing to openscad binary.
 #
 STLS=brush-holder.stl mounting-hub.stl
 
