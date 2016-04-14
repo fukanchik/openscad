@@ -12,3 +12,6 @@ stl/brush-holder.stl: brush-holder.scad
 stl/mounting-hub.stl: mounting-hub.scad
 	$(OPENSCAD) -o $@ $<
 
+stl/filament_bar.stl: filament_bar.scad
+	$(OPENSCAD) -o $@ $<
+
