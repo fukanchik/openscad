@@ -7,4 +7,4 @@ Repository for openscad snippets.
 * slm\_holder.scad - Sound Level Meter stand
 * bathplug.scad - Bath plug
 * stand\_lamp\_base.scad - Fix for broken lamp
- 
+* rivet.scad - few models of a plastic rivet
