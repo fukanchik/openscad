@@ -8,3 +8,4 @@ Repository for openscad snippets.
 * bathplug.scad - Bath plug
 * stand\_lamp\_base.scad - Fix for broken lamp
 * rivet.scad - few models of a plastic rivet
+* box.scad - simple container
