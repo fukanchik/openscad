@@ -5,12 +5,24 @@ TALL=90;
 
 WALL=1;
 
-difference()
+// Needs extra weight
+NEED_WEIGHT = true;
+
+module cup()
 {
-	cylinder(d1=D_DOWN,d2=D_UP,h=TALL);
 	difference()
 		{
-			cylinder(d1=D_DOWN-2*WALL,d2=D_UP-2*WALL,h=TALL+2*DELTA);
-			translate([-50,-50,0])cube([100,100,12]);
+			cylinder(d1=D_DOWN,d2=D_UP,h=TALL);
+			difference()
+				{
+					cylinder(d1=D_DOWN-2*WALL,d2=D_UP-2*WALL,h=TALL+2*DELTA);
+					translate([-50,-50,0])cube([100,100,12]);
+				}
+			if (NEED_WEIGHT)
+				{
+					translate([0,0,-DELTA]) cylinder(d=12.8,h=5.5, $fn=6);
+				}
 		}
 }
+
+cup();
