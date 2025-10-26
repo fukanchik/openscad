@@ -11,6 +11,6 @@ difference()
 	difference()
 		{
 			cylinder(d1=D_DOWN-2*WALL,d2=D_UP-2*WALL,h=TALL+2*DELTA);
-			translate([-50,-50,0])cube([100,100,7]);
+			translate([-50,-50,0])cube([100,100,12]);
 		}
 }
